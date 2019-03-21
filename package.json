@@ -1,0 +1,34 @@
+{
+  "name": "websockets-nodejs",
+  "version": "1.0.0",
+  "description": "websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FemiOfficial/websockets-nodejs.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "femiofficial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FemiOfficial/websockets-nodejs/issues"
+  },
+  "homepage": "https://github.com/FemiOfficial/websockets-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-regenerator": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0"
+  }
+}
